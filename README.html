@@ -384,9 +384,10 @@ blockquote {
 ↓には文字列のクリップボード履歴が表示されます。左側に表示されているのは時刻です（連続でクリップボードイベントが発生してしまうことがあるため、そのデバッグのための意味が主です）。クリックした文字列がクリップボードにコピーされます。
 <img src="https://content.screencast.com/users/ssatoh17/folders/Default/media/7eabcce3-234e-41c4-9734-b2659ef5c99b/08.03.2017-22.54.png" alt="画面イメージ" title="画面イメージ"></p>
 <h2>技術メモ</h2>
-<p>・クリップボードの監視は、Win32 API のラッパーを使用（ <a href="http://anis774.net/codevault/clipboardwatcher.html">C#|クリップボードの変更を監視する</a> からほぼコピペ。‎@anis774さんありがとうございます）
-・Snagitの画像への直リンクURLは、Webスクレイピングで取得している
-・スクレイピングに使っているのは、WebClientクラスと、HTML Agility Pack</p>
+<p>・<strong>クリップボードの監視</strong>は、Win32 API のラッパーを使用（ <a href="http://anis774.net/codevault/clipboardwatcher.html">C#|クリップボードの変更を監視する</a> からほぼコピペ。‎@anis774さんありがとうございます）<br>
+・Snagitの画像への直リンクURLは、Webスクレイピングで取得している<br>
+・スクレイピングに使っているのは、WebClientクラス(HttpClientクラスでも良かったが）と、<code>HTML Agility Pack（＋Linq）</code>（参考サイト：<a href="http://www.katch.ne.jp/~h-inoue/tips/cs/0001.html">C#でURLのリソースからテキスト取得</a>←何故かLightShotから取得できない。OpenReadメソッド実行時に403エラーが発生）<br>
+参考サイト：<a href="http://www.atmarkit.co.jp/ait/articles/1501/27/news140.html">Html Agility Packを使ってWebページをスクレイピングするには？［C#、VB］</a></p>
 <h2>今後</h2>
 <p>マークダウン用の</p>
 

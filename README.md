@@ -13,9 +13,11 @@
 
 ## 技術メモ
 
-・クリップボードの監視は、Win32 API のラッパーを使用（ [C#|クリップボードの変更を監視する](http://anis774.net/codevault/clipboardwatcher.html) からほぼコピペ。‎@anis774さんありがとうございます）
-・Snagitの画像への直リンクURLは、Webスクレイピングで取得している
-・スクレイピングに使っているのは、WebClientクラスと、HTML Agility Pack
+・**クリップボードの監視**は、Win32 API のラッパーを使用（ [C#|クリップボードの変更を監視する](http://anis774.net/codevault/clipboardwatcher.html) からほぼコピペ。‎@anis774さんありがとうございます）<br>
+・Snagitの画像への直リンクURLは、Webスクレイピングで取得している<br>
+・スクレイピングに使っているのは、WebClientクラス(HttpClientクラスでも良かったが）と、`HTML Agility Pack（＋Linq）`（参考サイト：[C#でURLのリソースからテキスト取得](http://www.katch.ne.jp/~h-inoue/tips/cs/0001.html)←何故かLightShotから取得できない。OpenReadメソッド実行時に403エラーが発生）<br>
+参考サイト：[Html Agility Packを使ってWebページをスクレイピングするには？［C#、VB］](http://www.atmarkit.co.jp/ait/articles/1501/27/news140.html)
+
 
 ## 今後
 マークダウン用の
