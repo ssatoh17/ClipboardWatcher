@@ -1,0 +1,11 @@
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\bin\Release\ClipboardWatcher.exe.config
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\bin\Release\ClipboardWatcher.exe
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\bin\Release\ClipboardWatcher.pdb
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\bin\Release\HtmlAgilityPack.dll
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\bin\Release\HtmlAgilityPack.pdb
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\bin\Release\HtmlAgilityPack.xml
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\obj\Release\ClipboardWatcher.Form1.resources
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\obj\Release\ClipboardWatcher.Properties.Resources.resources
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\obj\Release\ClipboardWatcher.csproj.GenerateResource.Cache
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\obj\Release\ClipboardWatcher.exe
+C:\OneDrive\Projects\VisualStudio2017\WinForms\170803_クリップボード監視\ClipboardWatcher\ClipboardWatcher\obj\Release\ClipboardWatcher.pdb
