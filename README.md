@@ -21,3 +21,5 @@
 
 ## 今後
 マークダウン用の
+
+<details><summary>detailsタグは使えるか？？</summary>htmlタグは使えるが、サービス側で制限している可能性もあり</details>
