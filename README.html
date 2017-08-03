@@ -377,14 +377,31 @@ blockquote {
 <body>
 <h1>ClipboardWatcher</h1>
 <p>クリップボードを監視して、SnagitのキャプチャURLの画像への直リンクを取得するツールです</p>
+<ul>
+<li><a href="#clipboardwatcher">ClipboardWatcher</a>
+<ul>
+<li><a href="#%E6%9C%AC%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86%E3%81%A8%E6%80%9D%E3%81%A3%E3%81%9F%E8%83%8C%E6%99%AF">本ツールを作ろうと思った背景</a></li>
+<li><a href="#%E3%83%84%E3%83%BC%E3%83%AB%E7%B4%B9%E4%BB%8B">ツール紹介</a></li>
+<li><a href="#%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2">技術メモ</a></li>
+<li><a href="#%E4%BB%8A%E5%BE%8C">今後</a></li>
+<li><a href="#%E3%81%9D%E3%81%AE%E4%BB%96">その他</a>
+<ul>
+<li><a href="#%E8%87%AA%E5%88%86%E7%94%A8%E3%83%A1%E3%83%A2">自分用メモ</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h2>本ツールを作ろうと思った背景</h2>
 <p>画面キャプチャ画像を保存した時に、例えばLightShotだと</p>
 <h2>ツール紹介</h2>
-<p>起動時画面
-<img src="https://content.screencast.com/users/ssatoh17/folders/Default/media/b73a589e-a213-488c-a7aa-c4047b7f3af4/08.03.2017-22.51.png" alt="起動時画面" title="起動時画面"></p>
+<p>起動時画面</p>
+<!-- ![起動時画面](https://content.screencast.com/users/ssatoh17/folders/Default/media/b73a589e-a213-488c-a7aa-c4047b7f3af4/08.03.2017-22.51.png "起動時画面") -->
+<img src="https://content.screencast.com/users/ssatoh17/folders/Default/media/b73a589e-a213-488c-a7aa-c4047b7f3af4/08.03.2017-22.51.png" width="400px">
 <p>画面左上には、直近のクリップボードにある画像が表示されていて、クリックすると画像としてクリップボードにコピーされます。
-↓には文字列のクリップボード履歴が表示されます。左側に表示されているのは時刻です（連続でクリップボードイベントが発生してしまうことがあるため、そのデバッグのための意味が主です）。クリックした文字列がクリップボードにコピーされます。
-<img src="https://content.screencast.com/users/ssatoh17/folders/Default/media/7eabcce3-234e-41c4-9734-b2659ef5c99b/08.03.2017-22.54.png" alt="画面イメージ" title="画面イメージ"></p>
+↓には文字列のクリップボード履歴が表示されます。左側に表示されているのは時刻です（連続でクリップボードイベントが発生してしまうことがあるため、そのデバッグのための意味が主です）。クリックした文字列がクリップボードにコピーされます。</p>
+<!-- ![画面イメージ](https://content.screencast.com/users/ssatoh17/folders/Default/media/7eabcce3-234e-41c4-9734-b2659ef5c99b/08.03.2017-22.54.png "画面イメージ") -->
+<img src="https://content.screencast.com/users/ssatoh17/folders/Default/media/7eabcce3-234e-41c4-9734-b2659ef5c99b/08.03.2017-22.54.png" width="400px">
 <h2>技術メモ</h2>
 <p>・<strong>クリップボードの監視</strong>は、Win32 API のラッパーを使用（ <a href="http://anis774.net/codevault/clipboardwatcher.html">C#|クリップボードの変更を監視する</a> からほぼコピペ。‎@anis774さんありがとうございます）<br>
 ・Snagitの画像への直リンクURLは、Webスクレイピングで取得している<br>
@@ -392,8 +409,9 @@ blockquote {
 参考サイト：<a href="http://www.atmarkit.co.jp/ait/articles/1501/27/news140.html">Html Agility Packを使ってWebページをスクレイピングするには？［C#、VB］</a></p>
 <h2>今後</h2>
 <p>マークダウン用の</p>
-<details><summary>detailsタグは使えるか？？</summary>htmlタグは使えるが、サービス側で制限している可能性もあり</details>
-<p><button onclick="alert('hello!');">ボタン</button></p>
+<details><summary>detailsタグは使えるか？？</summary>htmlタグは使えるが、サービス側で制限している可能性もあり。GitHubでは使えた！</details>
+<!-- 流石にスクリプトは使えなかった <button onclick="alert('hello!');">ボタン</button> -->
+<h2>その他</h2>
 <h3>自分用メモ</h3>
 <p>https://github.com/ssatoh17/ClipboardWatcher</p>
 <p>GitHubにGoogleアナリティクスを使える？？</p>
