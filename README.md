@@ -1,0 +1,2 @@
+# ClipboardWatcher
+クリップボードを監視して、SnagitのキャプチャURLの画像への直リンクを取得するツール
