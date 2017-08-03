@@ -1,7 +1,11 @@
 # ClipboardWatcher
 クリップボードを監視して、SnagitのキャプチャURLの画像への直リンクを取得するツールです
 
+
 ## 本ツールを作ろうと思った背景
+画面キャプチャ画像を保存した時に、例えばLightShotだと
+
+## ツール紹介
 
 起動時画面
 ![起動時画面](https://content.screencast.com/users/ssatoh17/folders/Default/media/b73a589e-a213-488c-a7aa-c4047b7f3af4/08.03.2017-22.51.png "起動時画面")
@@ -23,3 +27,12 @@
 マークダウン用の
 
 <details><summary>detailsタグは使えるか？？</summary>htmlタグは使えるが、サービス側で制限している可能性もあり</details>
+
+<button onclick="alert('hello!');">ボタン</button>
+
+### 自分用メモ
+https://github.com/ssatoh17/ClipboardWatcher
+
+GitHubにGoogleアナリティクスを使える？？
+
+GitHubのトップページに表示できるのは、mdファイルのみ？？index.htmlは使えない？
